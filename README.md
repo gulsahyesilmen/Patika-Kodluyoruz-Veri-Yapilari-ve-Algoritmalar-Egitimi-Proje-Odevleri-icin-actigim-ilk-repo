@@ -27,10 +27,43 @@ Patika-Kodluyoruz Veri Yapılar ve Algoritmaları Projeler
  n+ (n-1)+(n-2)+...+1 = {n.(n+1) \over 2} = { n^2 + n \over 2}
 ``` 
     
-      olduğundan big-O gösterimi 
+olduğundan big-O gösterimi 
+
+
       
   ```math
 O(n^2)
-``` 
-    olur.
-      
+```
+ olur.
+
+**Time Complexity**
+
+iii. Dizi sıralandıktan sonra "18" sayısı aşağıdaki case'lerden hangisinin kapsamına girer?
+
+- Average Case: Aradığımız sayının ortada olması
+- Worst Case: Aradığımız sayının sonda olması
+- Best Case: Aradığımız sayının dizinin en başında olması
+
+**Cevap :** Dizinin sıralanmış hali **[2,6,16,18,22,27]** olduğundan "18" sayısı Average Case kapsamına girer.
+
+2.Soru : **[7,3,5,8,2,9,4,15,6]** dizisinin Selection Sort'a göre ilk dört adımını yazınız.
+
+**Cevap :**
+
+**[2,3,5,8,7,9,4,15,6]**
+
+**[2,3,5,8,7,9,4,15,6]**
+
+**[2,3,4,8,7,9,5,15,6]**
+
+**[2,3,4,5,7,9,8,15,6]**
+
+---
+
+* # Proje 2
+
+  **[16,21,11,8,12,22]** &rarr; Merge Sort
+
+  -Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+  
+![binarydiagram.jpg]()
