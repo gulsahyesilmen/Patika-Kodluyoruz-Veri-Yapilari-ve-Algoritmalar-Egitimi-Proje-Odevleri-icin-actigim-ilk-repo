@@ -67,3 +67,49 @@ iii. Dizi sıralandıktan sonra "18" sayısı aşağıdaki case'lerden hangisini
   -Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
   
 ![](binarydiagram.jpg)
+
+  - Big-O gösterimini yazınız.
+Kabul edelim ki dizi n elemanlı olsun. Bu durumda 
+```math
+
+1. adım &rarr; n 
+
+```
+
+```math
+2. adım &rarr; { n \over 2}
+
+```
+
+```math
+3. adım &rarr; {n \over 4}
+
+```
+```math
+.
+
+.
+
+.
+```
+
+```math
+x. adım &rarr; 1 
+
+```
+olduğundan 
+
+```math
+2^x = n &harr; x=logn 
+
+```
+ve dizinin "n" elemanının her biri için logn zaman harcanacak ve bu n.logn ' e eşit olacak. Bu
+sebeple O(nlogn) dir.
+
+---
+
+* ## Project 3
+
+  * **[7,5,1,8,3,6,0,9,4,2]** dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+**Cevap :**
