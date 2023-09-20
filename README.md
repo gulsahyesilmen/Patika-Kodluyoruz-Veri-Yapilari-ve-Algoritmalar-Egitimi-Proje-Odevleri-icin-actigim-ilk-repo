@@ -66,4 +66,4 @@ iii. Dizi sıralandıktan sonra "18" sayısı aşağıdaki case'lerden hangisini
 
   -Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
   
-![binarydiagram.jpg]()
+![](binarydiagram.jpg)
